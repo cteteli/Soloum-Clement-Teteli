@@ -21,7 +21,7 @@ header {
   position: relative;
   min-height: 260px;
   background: linear-gradient(to bottom, rgba(41,128,185,0.78), rgba(255,255,255,0.10)),
-              url('img3.jpg') center center/cover no-repeat;
+              url('mon-fond2.png') center center/cover no-repeat;
   border-radius: 0 0 14px 14px;
   box-shadow: 0 4px 10px rgba(44,62,80,0.08);
   display: flex;
