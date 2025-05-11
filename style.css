@@ -6,6 +6,7 @@ body {
   color: #222;
 }
 
+/* ===== En-tête générale Accueil ===== */
 header {
   position: relative;
   height: 350px;
@@ -15,6 +16,37 @@ header {
   box-shadow: 0 4px 10px rgba(44,62,80,0.08);
 }
 
+/* ===== En-tête avec image fond pour les rubriques (sauf accueil) ===== */
+.header-section-bg {
+  position: relative;
+  min-height: 260px;
+  background: linear-gradient(to bottom, rgba(41,128,185,0.78), rgba(255,255,255,0.10)),
+              url('mon-fond.png') center center/cover no-repeat;
+  border-radius: 0 0 14px 14px;
+  box-shadow: 0 4px 10px rgba(44,62,80,0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header-section-bg h1 {
+  color: #fff;
+  font-size: 2.4em;
+  padding: 2.3em 0 0.7em 0;
+  text-shadow: 2px 2px 18px #2227;
+  margin: 0;
+}
+.header-section-bg nav ul {
+  background: rgba(255,255,255,0.16);
+  border-radius: 18px;
+  padding: 0.2em 1em;
+  margin-bottom: 1em;
+}
+.header-section-bg nav a {
+  color: #fff;
+}
+
+/* ===== Accueil : slider fond d'écran ===== */
 .slider-bg {
   position: absolute;
   top: 0; left: 0; width: 100%; height: 100%;
@@ -31,7 +63,6 @@ header {
   opacity: 1;
   z-index: 2;
 }
-
 .header-content {
   position: relative;
   z-index: 3;
@@ -41,9 +72,9 @@ header {
   align-items: center;
   justify-content: center;
   background: linear-gradient(to bottom, rgba(44,62,80,0.73) 10%, rgba(41,128,185,0.30) 80%, rgba(255,255,255,0.01) 100%);
-  height: 100%;
 }
 
+/* ===== Styles généraux menu ===== */
 header h1 {
   margin: 0.2em 0 0.1em 0;
   font-size: 2.7em;
@@ -75,7 +106,7 @@ header nav a.active {
   background: rgba(255,255,255,0.18);
 }
 
-/* Réseaux sociaux dans le header */
+/* ===== Réseaux sociaux dans le header ===== */
 .social-links {
   display: flex;
   gap: 1em;
@@ -103,6 +134,7 @@ header nav a.active {
   box-shadow: 0 4px 14px #2980b933;
 }
 
+/* ===== Main ===== */
 main {
   max-width: 950px;
   margin: 2em auto;
@@ -580,31 +612,4 @@ footer {
     width: 70px;
     height: 46px;
   }
-.header-section-bg {
-  position: relative;
-  min-height: 260px;
-  background: linear-gradient(to bottom, rgba(41,128,185,0.78), rgba(255,255,255,0.10)),
-              url('mon-fond.png') center center/cover no-repeat;
-  border-radius: 0 0 14px 14px;
-  box-shadow: 0 4px 10px rgba(44,62,80,0.08);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.header-section-bg h1 {
-  color: #fff;
-  font-size: 2.4em;
-  padding: 2.3em 0 0.7em 0;
-  text-shadow: 2px 2px 18px #2227;
-  margin: 0;
-}
-.header-section-bg nav ul {
-  background: rgba(255,255,255,0.16);
-  border-radius: 18px;
-  padding: 0.2em 1em;
-  margin-bottom: 1em;
-}
-.header-section-bg nav a {
-  color: #fff;
 }
