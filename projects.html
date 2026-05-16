@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title data-en="Projects – Clément Soloum TETELI" data-fr="Projets – Clément Soloum TETELI">Projects – Clément Soloum TETELI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Research and development projects managed by Clément Soloum TETELI – mycology, tropical forests, biodiversity conservation.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ── Navigation ── -->
+  <nav id="topnav">
+    <div class="nav-brand">C. <span>Teteli</span></div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html"><i class="fas fa-home"></i> <span data-en="Home" data-fr="Accueil">Home</span></a></li>
+      <li><a href="formation.html"><i class="fas fa-graduation-cap"></i> <span data-en="Education" data-fr="Formation">Education</span></a></li>
+      <li><a href="experience.html"><i class="fas fa-briefcase"></i> <span data-en="Experience" data-fr="Expérience">Experience</span></a></li>
+      <li><a href="publications.html"><i class="fas fa-book-open"></i> <span data-en="Publications" data-fr="Publications">Publications</span></a></li>
+      <li><a href="recherche.html"><i class="fas fa-flask"></i> <span data-en="Research" data-fr="Recherche">Research</span></a></li>
+      <li><a href="projects.html" class="active"><i class="fas fa-diagram-project"></i> <span data-en="Projects" data-fr="Projets">Projects</span></a></li>
+      <li><a href="excursions.html"><i class="fas fa-map-marked-alt"></i> <span data-en="Field Trips" data-fr="Excursions">Field Trips</span></a></li>
+    </ul>
+    <button class="nav-burger" id="navBurger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ── Page Header ── -->
+  <header class="page-header">
+    <div class="page-header-content">
+      <h1><i class="fas fa-diagram-project" style="font-size:0.8em;opacity:0.85"></i> <span data-en="Projects" data-fr="Projets">Projects</span></h1>
+      <p class="page-header-sub" data-en="Research &amp; development projects I manage or contribute to" data-fr="Projets de recherche &amp; développement que je dirige ou auxquels je contribue">Research &amp; development projects I manage or contribute to</p>
+      <div class="breadcrumb">
+        <a href="index.html" data-en="Home" data-fr="Accueil">Home</a>
+        <i class="fas fa-chevron-right"></i>
+        <span data-en="Projects" data-fr="Projets">Projects</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Filter bar -->
+    <div class="projects-filter-bar reveal">
+      <button class="filter-btn active" data-filter="all">
+        <i class="fas fa-layer-group"></i> <span data-en="All Projects" data-fr="Tous les projets">All Projects</span>
+      </button>
+      <button class="filter-btn" data-filter="ongoing">
+        <i class="fas fa-spinner"></i> <span data-en="Ongoing" data-fr="En cours">Ongoing</span>
+      </button>
+      <button class="filter-btn" data-filter="completed">
+        <i class="fas fa-check-circle"></i> <span data-en="Completed" data-fr="Terminés">Completed</span>
+      </button>
+    </div>
+
+    <div class="section-title reveal" style="margin-top:1.5rem">
+      <i class="fas fa-folder-open"></i> <span data-en="Project Portfolio" data-fr="Portefeuille de projets">Project Portfolio</span>
+    </div>
+    <div class="section-divider"></div>
+
+    <!-- Projects Grid -->
+    <div class="projects-grid reveal" id="projectsGrid">
+
+      <!-- ── PROJECT 1 ── -->
+      <article class="project-card" data-status="ongoing">
+        <div class="project-card-top">
+          <div class="project-status-badge status-ongoing">
+            <i class="fas fa-circle"></i> <span data-en="Ongoing" data-fr="En cours">Ongoing</span>
+          </div>
+          <div class="project-grant-num">
+            <i class="fas fa-hashtag"></i> Grant N° <span>BOF-UGent/2024/01</span>
+          </div>
+        </div>
+
+        <div class="project-card-body">
+          <h2 class="project-title">
+            <a href="project-mycorrhiza.html">
+              Mycorrhizal Diversity and Function in Tropical Agroecosystems of West Africa
+              <i class="fas fa-arrow-right project-arrow"></i>
+            </a>
+          </h2>
+
+          <div class="project-meta-grid">
+            <div class="project-meta-item">
+              <i class="fas fa-calendar-alt"></i>
+              <div>
+                <span class="meta-label" data-en="Period" data-fr="Période">Period</span>
+                <span class="meta-value" data-en="Jan 2024 – Dec 2027" data-fr="Jan 2024 – Déc 2027">Jan 2024 – Dec 2027</span>
+              </div>
+            </div>
+            <div class="project-meta-item">
+              <i class="fas fa-hand-holding-usd"></i>
+              <div>
+                <span class="meta-label" data-en="Funder" data-fr="Financeur">Funder</span>
+                <span class="meta-value">Ghent University (BOF) &amp; FWO Belgium</span>
+              </div>
+            </div>
+            <div class="project-meta-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <span class="meta-label" data-en="Location" data-fr="Lieu">Location</span>
+                <span class="meta-value" data-en="Benin &amp; Belgium" data-fr="Bénin &amp; Belgique">Benin &amp; Belgium</span>
+              </div>
+            </div>
+            <div class="project-meta-item">
+              <i class="fas fa-tag"></i>
+              <div>
+                <span class="meta-label" data-en="Type" data-fr="Type">Type</span>
+                <span class="meta-value" data-en="PhD Research" data-fr="Recherche doctorale">PhD Research</span>
+              </div>
+            </div>
+          </div>
+
+          <p class="project-objective">
+            <strong><i class="fas fa-bullseye"></i> Objective:</strong>
+            To characterize the diversity, distribution, and ecological functions of ectomycorrhizal and arbuscular mycorrhizal fungi in tropical agroecosystems across Benin (West Africa), using morphological, molecular (eDNA, barcoding), and phylogenetic approaches, in order to develop sustainable inoculation strategies for forest restoration.
+          </p>
+
+          <div class="project-tags">
+            <span class="project-tag"><i class="fas fa-dna"></i> Mycology</span>
+            <span class="project-tag"><i class="fas fa-seedling"></i> Agroecosystems</span>
+            <span class="project-tag"><i class="fas fa-vial"></i> eDNA</span>
+            <span class="project-tag"><i class="fas fa-tree"></i> Forest Restoration</span>
+          </div>
+        </div>
+
+        <a href="project-mycorrhiza.html" class="project-card-cta">
+          <span data-en="View Project Details" data-fr="Voir les détails">View Project Details</span> <i class="fas fa-arrow-right"></i>
+        </a>
+      </article>
+
+      <!-- ── PROJECT 2 ── -->
+      <article class="project-card" data-status="ongoing">
+        <div class="project-card-top">
+          <div class="project-status-badge status-ongoing">
+            <i class="fas fa-circle"></i> <span data-en="Ongoing" data-fr="En cours">Ongoing</span>
+          </div>
+          <div class="project-grant-num">
+            <i class="fas fa-hashtag"></i> Grant N° <span>ISRA/LNRPV/2025-02</span>
+          </div>
+        </div>
+
+        <div class="project-card-body">
+          <h2 class="project-title">
+            <a href="project-senegal.html">
+              Mycorrhiza Culture and Fungal Inoculum Production for Tree Restoration in Senegal
+              <i class="fas fa-arrow-right project-arrow"></i>
+            </a>
+          </h2>
+
+          <div class="project-meta-grid">
+            <div class="project-meta-item">
+              <i class="fas fa-calendar-alt"></i>
+              <div>
+                <span class="meta-label">Period</span>
+                <span class="meta-value">Mar 2025 – May 2026</span>
+              </div>
+            </div>
+            <div class="project-meta-item">
+              <i class="fas fa-hand-holding-usd"></i>
+              <div>
+                <span class="meta-label">Funder</span>
+                <span class="meta-value">ISRA – Senegalese Institute of Agricultural Research</span>
+              </div>
+            </div>
+            <div class="project-meta-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <span class="meta-label">Location</span>
+                <span class="meta-value">Dakar, Senegal</span>
+              </div>
+            </div>
+            <div class="project-meta-item">
+              <i class="fas fa-tag"></i>
+              <div>
+                <span class="meta-label">Type</span>
+                <span class="meta-value">Applied Research / Training</span>
+              </div>
+            </div>
+          </div>
+
+          <p class="project-objective">
+            <strong><i class="fas fa-bullseye"></i> Objective:</strong>
+            To develop and optimize mycorrhizal inoculum production protocols for native tree species at the National Laboratory for Plant Production Research (LNRPV), aiming to strengthen the restoration strategy of degraded ecosystems in the Sahel region through low-cost, locally adaptable biotechnological solutions.
+          </p>
+
+          <div class="project-tags">
+            <span class="project-tag"><i class="fas fa-flask"></i> Inoculum Production</span>
+            <span class="project-tag"><i class="fas fa-tree"></i> Tree Restoration</span>
+            <span class="project-tag"><i class="fas fa-sun"></i> Sahel</span>
+            <span class="project-tag"><i class="fas fa-chalkboard-teacher"></i> Training</span>
+          </div>
+        </div>
+
+        <a href="project-senegal.html" class="project-card-cta">
+          <span data-en="View Project Details" data-fr="Voir les détails">View Project Details</span> <i class="fas fa-arrow-right"></i>
+        </a>
+      </article>
+
+      <!-- ── PROJECT 3 ── -->
+      <article class="project-card" data-status="completed">
+        <div class="project-card-top">
+          <div class="project-status-badge status-completed">
+            <i class="fas fa-check-circle"></i> <span data-en="Completed" data-fr="Terminé">Completed</span>
+          </div>
+          <div class="project-grant-num">
+            <i class="fas fa-hashtag"></i> Grant N° <span>EU-ECO/RDC/2022-04</span>
+          </div>
+        </div>
+
+        <div class="project-card-body">
+          <h2 class="project-title">
+            <a href="project-rdc.html">
+              Ecosystem Services Assessment and Waste Management Awareness in Tshumba-kituti, DR Congo
+              <i class="fas fa-arrow-right project-arrow"></i>
+            </a>
+          </h2>
+
+          <div class="project-meta-grid">
+            <div class="project-meta-item">
+              <i class="fas fa-calendar-alt"></i>
+              <div>
+                <span class="meta-label">Period</span>
+                <span class="meta-value">Jan 2022 – Dec 2022</span>
+              </div>
+            </div>
+            <div class="project-meta-item">
+              <i class="fas fa-hand-holding-usd"></i>
+              <div>
+                <span class="meta-label">Funder</span>
+                <span class="meta-value">European Union (EU Development Fund)</span>
+              </div>
+            </div>
+            <div class="project-meta-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <span class="meta-label">Location</span>
+                <span class="meta-value">Kinshasa &amp; Tshumba-kituti, DRC</span>
+              </div>
+            </div>
+            <div class="project-meta-item">
+              <i class="fas fa-tag"></i>
+              <div>
+                <span class="meta-label">Type</span>
+                <span class="meta-value">Community Development</span>
+              </div>
+            </div>
+          </div>
+
+          <p class="project-objective">
+            <strong><i class="fas fa-bullseye"></i> Objective:</strong>
+            To inventory and assess ecosystem services in peri-urban areas of DR Congo, raise community awareness on sustainable waste management and recycling, and integrate ecosystem services valuation into local development planning frameworks.
+          </p>
+
+          <div class="project-tags">
+            <span class="project-tag"><i class="fas fa-recycle"></i> Waste Management</span>
+            <span class="project-tag"><i class="fas fa-globe-africa"></i> Ecosystem Services</span>
+            <span class="project-tag"><i class="fas fa-users"></i> Community</span>
+            <span class="project-tag"><i class="fas fa-city"></i> Urban Ecology</span>
+          </div>
+        </div>
+
+        <a href="project-rdc.html" class="project-card-cta">
+          <span data-en="View Project Details" data-fr="Voir les détails">View Project Details</span> <i class="fas fa-arrow-right"></i>
+        </a>
+      </article>
+
+      <!-- ── PROJECT 4 ── -->
+      <article class="project-card" data-status="completed">
+        <div class="project-card-top">
+          <div class="project-status-badge status-completed">
+            <i class="fas fa-check-circle"></i> <span data-en="Completed" data-fr="Terminé">Completed</span>
+          </div>
+          <div class="project-grant-num">
+            <i class="fas fa-hashtag"></i> Grant N° <span>MyTIPS/UP/2020-01</span>
+          </div>
+        </div>
+
+        <div class="project-card-body">
+          <h2 class="project-title">
+            <a href="project-mytips.html">
+              MyTIPS – Mycorrhizal Tropical Inoculum Production System (Benin)
+              <i class="fas fa-arrow-right project-arrow"></i>
+            </a>
+          </h2>
+
+          <div class="project-meta-grid">
+            <div class="project-meta-item">
+              <i class="fas fa-calendar-alt"></i>
+              <div>
+                <span class="meta-label">Period</span>
+                <span class="meta-value">Jan 2020 – Oct 2020</span>
+              </div>
+            </div>
+            <div class="project-meta-item">
+              <i class="fas fa-hand-holding-usd"></i>
+              <div>
+                <span class="meta-label">Funder</span>
+                <span class="meta-value">University of Parakou (UP) – MyTIPS Unit</span>
+              </div>
+            </div>
+            <div class="project-meta-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <span class="meta-label">Location</span>
+                <span class="meta-value">Parakou, Benin</span>
+              </div>
+            </div>
+            <div class="project-meta-item">
+              <i class="fas fa-tag"></i>
+              <div>
+                <span class="meta-label">Type</span>
+                <span class="meta-value">Academic Research</span>
+              </div>
+            </div>
+          </div>
+
+          <p class="project-objective">
+            <strong><i class="fas fa-bullseye"></i> Objective:</strong>
+            To collect, identify, culture, and preserve mycorrhizal fungi from tropical soils in Benin; to build a functional fungal herbarium collection; and to produce standardized inoculum for field trials in agricultural and forestry contexts, contributing to sustainable soil management practices.
+          </p>
+
+          <div class="project-tags">
+            <span class="project-tag"><i class="fas fa-microscope"></i> Soil Sampling</span>
+            <span class="project-tag"><i class="fas fa-archive"></i> Herbarium</span>
+            <span class="project-tag"><i class="fas fa-seedling"></i> Mycorrhiza</span>
+            <span class="project-tag"><i class="fas fa-leaf"></i> Benin</span>
+          </div>
+        </div>
+
+        <a href="project-mytips.html" class="project-card-cta">
+          <span data-en="View Project Details" data-fr="Voir les détails">View Project Details</span> <i class="fas fa-arrow-right"></i>
+        </a>
+      </article>
+
+    </div><!-- /projects-grid -->
+
+  </main>
+
+  <!-- ── Footer ── -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-name">Clément Soloum TETELI</div>
+      <p style="font-size:0.85rem;color:rgba(255,255,255,0.55);">PhD Student in Biology · Ghent University · University of Parakou</p>
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/in/clément-teteli-68450216b" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.researchgate.net/profile/Soloum-Clement-Teteli/research" target="_blank"><i class="fab fa-researchgate"></i></a>
+        <a href="https://orcid.org/0000-0002-5714-2144" target="_blank"><i class="fab fa-orcid"></i></a>
+        <a href="https://x.com/Clement_ttli" target="_blank"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://www.facebook.com/share/16RG2QgfLr/?mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      </div>
+      <ul class="footer-links">
+        <li><a href="index.html" data-en="Home" data-fr="Accueil">Home</a></li>
+        <li><a href="formation.html" data-en="Education" data-fr="Formation">Education</a></li>
+        <li><a href="experience.html" data-en="Experience" data-fr="Expérience">Experience</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="recherche.html" data-en="Research" data-fr="Recherche">Research</a></li>
+        <li><a href="projects.html" data-en="Projects" data-fr="Projets">Projects</a></li>
+        <li><a href="excursions.html" data-en="Field Trips" data-fr="Excursions">Field Trips</a></li>
+      </ul>
+      <p class="footer-copy" data-en="© 2026 Clément Soloum TETELI · All rights reserved" data-fr="© 2026 Clément Soloum TETELI · Tous droits réservés">&copy; 2026 Clément Soloum TETELI · All rights reserved</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="lang.js"></script>
+  <script>
+    // Filter buttons
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const projectCards = document.querySelectorAll('.project-card');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', function () {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+        const filter = this.dataset.filter;
+        projectCards.forEach(card => {
+          if (filter === 'all' || card.dataset.status === filter) {
+            card.style.display = '';
+            setTimeout(() => card.style.opacity = '1', 10);
+          } else {
+            card.style.opacity = '0';
+            setTimeout(() => card.style.display = 'none', 300);
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
